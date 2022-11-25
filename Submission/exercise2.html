@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Bootstrap CSS here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Add Bootstrap JS here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>exercise2</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+        <!-- Navbar content -->
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">Welcome to Valorant</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Maps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Agent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skins</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel -->
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Sources/pearlloadingscreen.jpg" alt="Los Angeles" class="" width="1920vw"
+                    height="500vw">
+            </div>
+            <div class="carousel-item">
+                <img src="Sources/valo-split.png" alt="Chicago" class="" width="1920vw" height="500vw">
+            </div>
+            <div class="carousel-item">
+                <img src="Sources/valo-haven.png" alt="New York" class="" width="1920vw" height="500vw">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- card -->
+    <div class="row">
+        <div class="col-md-4 col-sm-12"> </div>
+        <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+        <h1 class="my-5">Favourite Agents</h1></div>
+        <div class="col-md-4 col-sm-12"> </div>
+    </div>
+    <div class="card-group">
+        <div col-4 class="mx-5 mb-3 card">
+            <img src="Sources/valo-chamber.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Chamber</h5>
+                <p class="card-text mt-5 mb-3">What is sexier than a man in suit, here's Chamber boy.Well dressed and
+                    well armed,
+                    French weapons designer Chamber expels aggressors with deadly precision </p>
+                <button type="button" class="btn btn-warning">Find sexy boy</button>
+            </div>
+
+            <div class="card-footer">
+                <small class="text-muted">Abilities - Trademark, Headhunter, Rendezvous, <b>Tour de Force</b></small>
+            </div>
+        </div>
+        <div col-4 class="mx-5 mb-3 card">
+
+            <img src="Sources/valo-omen.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Omen</h5>
+                <p class="card-text mt-5 mb-3">Guy from the dark side? Definetely love it.operates in the shadows, using
+                    misdirection and darkness to outplay his enemies.</p><br>
+                <button type="button" class="btn btn-dark">Join the dark side</button>
+            </div>
+
+            <div class="card-footer">
+                <small class="text-muted">Abilities - Shrouded Step, Paranoia, Dark Cover, <b>From the Shadows</b></small>
+            </div>
+        </div>
+        <div col-4 class="mx-5 mb-3 card">
+            <img src="Sources/valo-killjoy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Killjoy</h5>
+                <p class="card-text mt-5 mb-3">What is better than AFKing and let turrets and molly kill for you.Locks
+                    down a site
+                    single-handedly and provide her team with crucial information to help during rounds</p>
+                <button type="button" class="btn btn-danger">Go AFK</button>
+            </div>
+
+            <div class="card-footer">
+                <small class="text-muted">Abilities - Alarmbot, Nanobot, Turret, <b>Lockdown</b></small>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
